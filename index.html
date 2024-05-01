@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Deepak Singh</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact me">contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My name is <span class="purple">Deepak</span>
+                <div>I am a Passionate</div>
+                <span id="element"></span>
+
+            </div>
+            <div class="rightsection">
+                <img src="bg.jpg" alt="">
+            </div>
+        </section>
+    </main>
+    <!--About-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="bg.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About<span class="purple">Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui molestias asperiores, tenetur sed quasi
+                sapiente cumque aperiam beatae dolorum, tempore quia inventore debitis impedit. Quod alias accusantium
+                voluptate quidem quos!</p>
+            <a href="#" class="btn">Read more</a>
+        </div>
+    </section>
+    <!--SERVICES SECTION DESIGN-->
+    <section class="services" id="services">
+        <h2 class="heading">My <span class="purple">Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit quas alias itaque debitis ab
+                    recusandae unde fuga temporibus corrupti,<br> molestias consequuntur delectus, autem, aperiam impedit.
+                    Doloribus nisi odit iure illum!</p>
+                    <a href="" class="btn">Read more</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-palette'></i>
+                <h3>UI/UX Designing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit quas alias itaque debitis ab
+                    recusandae unde fuga temporibus corrupti, <br>molestias consequuntur delectus, autem, aperiam impedit.
+                    Doloribus nisi odit iure illum!</p>
+                    <a href="" class="btn">Read more</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-android'></i>
+                <h3>App Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit quas alias itaque debitis ab
+                    recusandae unde fuga temporibus corrupti,<br> molestias consequuntur delectus, autem, aperiam impedit.
+                    Doloribus nisi odit iure illum!</p>
+                    <a href="" class="btn">Read more</a>
+            </div>
+        </div>
+    </section>
+    <!--portfolio design-->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span class="purple">Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="image/1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>;;Lorem ipsum dolor sit amet .</p>
+                    <i class='bx bxs-up-arrow-circle'></i>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="image/2.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>;;Lorem ipsum dolor sit amet </p>
+                    <i class='bx bxs-up-arrow-circle'></i>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="image/3.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>;;Lorem ipsum dolor sit amet </p>
+                    <i class='bx bxs-up-arrow-circle'></i>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="image/4.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>;;Lorem ipsum dolor sit amet .</p>
+                    <i class='bx bxs-up-arrow-circle'></i>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="image/5.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>;;Lorem ipsum dolor sit amet </p>
+                    <i class='bx bxs-up-arrow-circle'></i>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="image/6.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>;;Lorem ipsum dolor sit amet </p>
+                    <i class='bx bxs-up-arrow-circle'></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer.', 'Web Designer.', 'Graphic Designer'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
