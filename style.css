@@ -36,6 +36,11 @@ nav ul li a:hover{
     font-size: 1.2rem   ;
  
  }
+#menu-bar{
+    font-size: 3.6rem;
+    color: white;
+    display: none;
+}
 .left{
     font-size: 1.5rem;
 }
@@ -48,6 +53,24 @@ nav ul li a:hover{
 }
 .firstsection > div {
     width: 30%;
+}
+.social-media a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem ;
+    height: 4rem;
+    background: transparent;
+    border: .2rem solid  ;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: white;
+    margin: 3rem 1.5rem 3rem 0;
+    transition: .5s ease;
+}
+.social-media a:hover{
+    background:white;
+    color: purple;
 }
 .leftsection{
  font-size: 3rem;
@@ -294,4 +317,148 @@ border-radius: 50px;
 .contact form .btn{
     margin-top: 2rem;
     cursor: pointer;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+    background: rgb(0, 0, 33);
+}
+.footer-text{
+    font-size: 1.6rem;
+}
+.footer-iconTop{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: .8rem 1rem;
+    background: soild purple;
+    border-radius: .8rem;
+    transform: .5s ease;
+    position: absolute;
+    left: 100%;
+    font-size: 2rem;
+    color: purple;}
+   
+
+.footer-iconTop a:hover{
+          box-shadow: 0 0 1rem purple;
+}
+.footer-iconTop a i{
+    font-size: 2.4rem;
+    color: purple;
+}
+
+/*Breckpoint*/
+@media(max-width:1200px){
+    html{
+        font-size: 55%;
+
+        }
+}
+@media(max-width: 1200px){
+    .header{
+        padding: 2rem 3%;
+        
+    }
+    section{
+        padding: 10rem 3%;
+
+    }
+    .services{
+        padding: 7rem;
+
+
+    }
+    .portfolio{
+        padding-bottom:  7rem;
+
+    }
+    .contact{
+        min-height: auto;
+    }
+    .footer{
+        padding: 2rem 3%;
+    }
+}
+@media(max-width:991px){
+    nav{
+        padding: 2rem 3%;
+    }
+    section{
+        padding: 10rem 3%;
+    }
+    .services{
+        padding: 7rem;
+    }
+    .portfolio{
+        padding-bottom: 7rem;
+    }
+    .contact{
+        min-height: auto;
+    }
+    .footer{
+        padding: 2rem 3%;
+    }
+}
+
+@media(max-width: 768px){
+    #menu-bar{
+        display: block;
+    }
+    .firstsection{
+        flex-direction: column;
+    }
+    .rightsection img{
+        width: 90vw;
+        margin-top: 4rem;
+    }
+    .about {
+        flex-direction: column;
+    }
+    .about-img img{
+        width: 90vw;
+        margin-top: 4rem;
+    }
+    .services h2{
+        margin-bottom: 3rem;
+    }
+
+    .portfolio h2 {
+        margin-bottom: 3rem;
+    }
+    .portfolio-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+
+}
+@media(max-width:617px){
+    .portfolio-container{
+        grid-template-columns:1fr;
+    }
+    .rightsection img{
+        width: 80vw;
+        margin-top: 8rem;
+    }
+    .about-img img{
+        width: 100vw;
+        margin-top: 4rem;
+    }
+
+}
+@media(max-width:450px){
+    body{
+        font-size: 50%;
+    }
+    .contact form .input-box input{
+        width: 100%;
+    
+    }
+    
+
 }
