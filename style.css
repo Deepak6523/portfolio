@@ -485,6 +485,9 @@ border-radius: 50px;
         justify-content: center;
         display: none;
     }
+    .left{
+        font-size: 3.5rem;
+    }
 
     
    
