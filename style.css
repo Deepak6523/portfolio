@@ -480,6 +480,13 @@ border-radius: 50px;
      margin-right: auto;
        
     }
+      nav ul{
+        display: flex;
+        justify-content: center;
+        display: none;
+    }
+
+    
    
     
 
